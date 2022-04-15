@@ -18,11 +18,9 @@ body {
 
 .people-img {
   display: block;
-  margin: 0 auto;
-  width: 25%;
-  height: auto;
-  text-align: center;
-  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
 /* Layout */
