@@ -14,6 +14,10 @@ app.config['SECRET_KEY'] = "asdjsdjkacjksdc" #encrypts cookies and session data 
 def home():
     return render_template("home.html")
 
+@app.route("/intro")
+def intro():
+    return render_template("intro.html")
+
 @app.route("/tri")
 def tri():
     return render_template("tri.html")

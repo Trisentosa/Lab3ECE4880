@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+{% extends "base.html" %} {% block title %}Home{% endblock %} 
+{% block content %}
 
 <html>
   <head>
@@ -11,13 +12,18 @@
   </head>
 
   <body>
-    <h4>Welcome Home Page</h4>
+    
+    <br>
 
-    <div class="commentbox"></div>
-    <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
-    <script>
-      commentBox("5636436753645568-proj");
-    </script>
+    <h1 style="text-align: center;" >Welcome to Team 6:Kiwi portfolio</h1>
+
+    <br>
+    <br>
+
+    <h2 style="text-align: center; color: crimson;" > ECE4880: Senior Design </h2>
+    <h3 style="text-align: center;"> Lab # 3 </h3>
+
+    <a href="intro" > Team 6 Kiwi: Intro </a>
 
     <!-- <img src="/static/Tigerhawk-gold on black@2x.png" > -->
 
@@ -27,3 +33,5 @@
 
 
 </html>
+
+{% endblock %}
