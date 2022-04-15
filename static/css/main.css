@@ -1,0 +1,73 @@
+body {
+  background: linear-gradient(
+    to right,
+    #1a535c 10%,
+    #f7fff7 10% 90%,
+    #1a535c 90%
+  );
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* images */
+.gif {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+  height: auto;
+}
+
+.people-img {
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+  height: auto;
+}
+
+/* Layout */
+.home-div {
+  margin: auto;
+  margin-top: 1em;
+  width: 40%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #4ecdc4;
+  border: #1a535c 10px solid;
+}
+
+/* Link styles */
+.intro-link {
+  font-size: 2em;
+  color: #f7fff7;
+}
+
+.people-link {
+  font-size: 1.5em;
+  color: #f7fff7;
+}
+
+.normal-link {
+  font-size: 1em;
+  color: #1a535c;
+}
+
+/* TEXT */
+.welcome-text {
+  color: #212329;
+  text-align: center;
+  font-size: 3em;
+}
+
+.text-center {
+  color: #212329;
+  text-align: center;
+}
+
+/* Icon */
+.group-icon {
+  font-size: 0.8em;
+}
+
+.icon {
+  vertical-align: text-bottom;
+}

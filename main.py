@@ -33,14 +33,6 @@ def som():
 @app.route("/jessie")
 def jessie():
     return render_template("jessie.html")
-    
-
-    
-
-
-
-    
-
 
 if __name__ == '__main__':
     app.run(debug=True)  # update flask server with changes we make

@@ -1,5 +1,5 @@
-{% extends "base.html" %} {% block title %}Home{% endblock %} 
-{% block content %}
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+%}
 
 <html>
   <head>
@@ -7,35 +7,42 @@
     <title>Welcome to Home page</title>
     <link
       rel="stylesheet"
-     
       href="{{url_for('static', filename= 'css/main.css')}}"
     />
   </head>
 
   <body>
-    
-    <br>
-    <h1 style="text-align: center;" >Welcome to Team 6:Kiwi portfolio</h1>
-
-    <br>
-    <br>
-
-    <h2 style="text-align: center; color: crimson;" > ECE4880: Senior Design </h2>
-    <h3 style="text-align: center;"> Lab # 3 </h3>
-    <img src="/static/giphy.gif"
-    style="display: block; margin: 0 auto;">
-    <a href="intro" > Team 6 Kiwi: Intro </a>
-
-    <!-- <img src="/static/Tigerhawk-gold on black@2x.png" > -->
-
-  
-    <h1>
-      <a href="som"> Som </a>
+    <br />
+    <h1 class="welcome-text" style="text-align: center">
+      Team 6 : Kiwi Portofolio
     </h1>
 
+    <br />
+
+    <h2 class="text-center">ECE4880: Senior Design</h2>
+    <h3 class="text-center">Lab #3</h3>
+    <img src="/static/giphy.gif" class="gif" />
+    <div class="home-div">
+      <a href="intro" class="intro-link">
+        Team 6 Kiwi: Intro
+        <span class="material-icons group-icon"> groups </span></a
+      >
+      <a href="jessie" class="people-link">
+        Jessie <span class="material-icons icon"> arrow_right </span></a
+      >
+      <a href="meesam" class="people-link">
+        Meesam <span class="material-icons icon"> arrow_right </span></a
+      >
+      <a href="som" class="people-link">
+        Som <span class="material-icons icon"> arrow_right </span></a
+      >
+      <a href="tri" class="people-link">
+        Tri <span class="material-icons icon"> arrow_right </span></a
+      >
+    </div>
+
+    <!-- <img src="/static/Tigerhawk-gold on black@2x.png" > -->
   </body>
-
-
 </html>
 
 {% endblock %}
