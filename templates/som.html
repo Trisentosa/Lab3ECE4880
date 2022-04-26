@@ -17,11 +17,14 @@
     >
     <br />
     <br />
-    <h4>Welcome to Som's Page</h4>
+    <h4 style="text-align: center;" >Welcome to Som's Page</h4>
 
-    <img src="/static/moe.jpg" class="people_img" />
+    <img src="/static/moe.jpg" class="people-img" />
 
     <!--img src="/static/tri_img.png" class="people_img" /-->
+
+    <br>
+    <br>
 
     <h5>Major: Electrical Engineering (EE)</h5>
     <h5>Skills:</h5>
@@ -38,13 +41,30 @@
     <h5>Contact Information:</h5>
     <ul>
       <li>
-        <span class="material-icons icon"> email </span> Email:
-        karma0024@naver.com
+
+        <span class="material-icons icon"> email </span> Email: <a href = "karma0024@naver.com" >karma0024@naver.com</a>
       </li>
-      <li>
-        <span class="material-icons icon"> phone </span> Phone: 
-      </li>
+      <li><span class="material-icons icon"> phone </span> Phone:</li>
     </ul>
+
+    <br />
+    <br />
+
+    <!-- If link to the right, for the span use navigate_next instead of navigate_before for the symbol -->
+    <div class="d-flex">
+      <a href="meesam" class="normal-link mr-auto p-2"
+        ><span class="material-icons icon"> navigate_before </span> Go to
+        Meesam's Page</a
+      >
+      <a href="tri" class="normal-link p-2"
+        >Go to Tri's Page<span class="material-icons icon">
+          navigate_next
+        </span></a
+      >
+    </div>
+
+    <br />
+    <br />
 
     <div class="commentbox"></div>
     <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
@@ -52,13 +72,11 @@
       commentBox("5636436753645568-proj");
     </script>
 
-    <!-- If link to the right, for the span use navigate_next instead of navigate_before for the symbol -->
-    <a href="som" class="normal-link"
-      ><span class="material-icons icon"> navigate_before </span> Go to Som's
-      Page</a
-    >
+    
     <br />
     <br />
+
   </body>
+
 </html>
 {% endblock %}
