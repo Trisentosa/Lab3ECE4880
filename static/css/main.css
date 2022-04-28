@@ -34,8 +34,7 @@ body {
 
 .people-img {
   display: block;
-  margin-left: 2.5in;
-  margin-right: auto;
+  margin: 0 auto;
   width: auto;
   height: auto;
 }
